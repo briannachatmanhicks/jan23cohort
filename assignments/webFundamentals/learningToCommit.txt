@@ -1,0 +1,108 @@
+BriannaZ : ~/Desktop/test/ > git init
+Initialized empty Git repository in /Users/briannachatman-hicks/Desktop/test/.git/
+BriannaZ : ~/Desktop/test/ - (main) > git init https://github.com/briannachatmanhicks/test.git
+Initialized empty Git repository in /Users/briannachatman-hicks/Desktop/test/https:/github.com/briannachatmanhicks/test.git/.git/
+BriannaZ : ~/Desktop/test/ - (main) > git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .DS_Store
+        commands.txt
+        https:/
+        index.html
+        styles.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+BriannaZ : ~/Desktop/test/ - (main) > git add .
+error: 'https:/github.com/briannachatmanhicks/test.git/' does not have a commit checked out
+fatal: adding files failed
+BriannaZ : ~/Desktop/test/ - (main) >  git commit -m "first commit" 
+On branch main
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .DS_Store
+        commands.txt
+        https:/
+        index.html
+        styles.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+BriannaZ : ~/Desktop/test/ - (main) > git add .
+error: 'https:/github.com/briannachatmanhicks/test.git/' does not have a commit checked out
+fatal: adding files failed
+BriannaZ : ~/Desktop/test/ - (main) > git add index.html
+BriannaZ : ~/Desktop/test/ - (main) > git add commands.txt
+BriannaZ : ~/Desktop/test/ - (main) > git add styles.css
+BriannaZ : ~/Desktop/test/ - (main) > git commit -m "first commit"
+[main (root-commit) 2292cdb] first commit
+ 3 files changed, 125 insertions(+)
+ create mode 100644 commands.txt
+ create mode 100644 index.html
+ create mode 100644 styles.css
+BriannaZ : ~/Desktop/test/ - (main) > git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+BriannaZ : ~/Desktop/test/ - (main) > git branch -M main
+BriannaZ : ~/Desktop/test/ - (main) > git remote add origin https://github.com/briannachatmanhicks/test.git
+
+BriannaZ : ~/Desktop/test/ - (main) > git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1007 bytes | 1007.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/briannachatmanhicks/test.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+BriannaZ : ~/Desktop/test/ - (main) >
+
+
+
+BriannaZ : ~/Desktop/test/ - (main) > git add index.html
+BriannaZ : ~/Desktop/test/ - (main) > git commit "update html"
+error: pathspec 'update html' did not match any file(s) known to git
+BriannaZ : ~/Desktop/test/ - (main) > git commit -m "update html"
+[main b9a1c61] update html
+ 1 file changed, 1 insertion(+)
+BriannaZ : ~/Desktop/test/ - (main) > git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 371 bytes | 371.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/briannachatmanhicks/test.git
+   2292cdb..b9a1c61  main -> main
+BriannaZ : ~/Desktop/test/ - (main) > git add styles.cdd
+fatal: pathspec 'styles.cdd' did not match any files
+BriannaZ : ~/Desktop/test/ - (main) > git add styles.css
+BriannaZ : ~/Desktop/test/ - (main) > git commit "update css"
+error: pathspec 'update css' did not match any file(s) known to git
+BriannaZ : ~/Desktop/test/ - (main) > git commit -m "update css"
+[main 36b42a4] update css
+ 1 file changed, 1 insertion(+)
+BriannaZ : ~/Desktop/test/ - (main) > git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 293 bytes | 293.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/briannachatmanhicks/test.git
+   b9a1c61..36b42a4  main -> main
+BriannaZ : ~/Desktop/test/ - (main) > 

@@ -1,0 +1,216 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Quicksand', sans-serif;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  margin: auto;
+}
+body header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  align-items: flex-start;
+}
+body header #tophead {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -20px;
+  z-index: 1;
+}
+body header #tophead img {
+  width: 80px;
+}
+body header #tophead h1 span {
+  color: rgba(10, 20, 130, 0.868);
+}
+body header #downhead {
+  background-color: rgba(10, 20, 130, 0.868);
+  padding: 10px 0 10px 10px;
+  width: 100%;
+  color: white;
+}
+body main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+body main span {
+  color: #39a6e4;
+}
+body main #rightside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 74%;
+}
+body main #rightside #righthead {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+body main #rightside #righthead #DNS {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+body main #rightside #righthead #DNS img {
+  width: 20px;
+}
+body main #rightside #righthead #DNS h3 {
+  color: rgba(10, 20, 130, 0.868);
+  font-weight: 500;
+}
+body main #rightside #righthead #phone {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  justify-content: space-between;
+}
+body main #rightside #righthead #phone img {
+  width: 50px;
+}
+body main #rightside #righthead #phone h2 {
+  color: #39a6e4;
+}
+body main #rightside #maindiv {
+  width: 100%;
+}
+body main #rightside #maindiv h2 {
+  color: rgba(10, 20, 130, 0.868);
+}
+body main #rightside #maindiv li {
+  margin-left: 50px;
+}
+body main #rightside #maindiv img {
+  width: 300px;
+  margin-left: 200px;
+}
+body main #rightside #footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 104%;
+  border: 5px solid #39a6e4;
+  margin-top: 25px;
+  align-items: flex-start;
+}
+body main #rightside #footer h2 {
+  color: rgba(10, 20, 130, 0.868);
+  margin-top: 10px;
+}
+body main #rightside #footer img {
+  width: 150px;
+  padding: 10px;
+}
+body main #leftside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+  align-items: center;
+}
+body main #leftside h3 {
+  margin: 10px 0px 10px 0px;
+  margin-left: -13px;
+}
+body main #leftside h3 span {
+  color: red;
+}
+body main #leftside p {
+  font-weight: 600;
+  width: min-content;
+  font-size: 15px;
+  width: 220px;
+  margin-bottom: 15px;
+}
+body main #leftside p span {
+  color: rgba(10, 20, 130, 0.868);
+}
+body main #leftside #WAV {
+  color: white;
+  background-color: rgba(10, 20, 130, 0.868);
+  font-size: 17px;
+  padding: 3px 0px;
+  width: 190px;
+  border-radius: 4px;
+  margin-bottom: 2px;
+}
+body main #leftside #MR {
+  color: white;
+  background-color: rgba(221, 140, 10, 0.868);
+  font-size: 17px;
+  padding: 3px 0px;
+  width: 190px;
+  border-radius: 4px;
+}
+body main #leftside hr {
+  width: 100%;
+  margin: 20px 0px 20px 0px;
+  border-width: 2px;
+}
+body main #leftside div {
+  background-image: url(images/ad_background.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main #leftside div h2 {
+  color: white;
+  text-align: center;
+  width: min-content;
+  width: 170px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+body main #leftside div img {
+  width: 110px;
+}
+body main #leftside div button {
+  color: white;
+  background-color: #39a6e4;
+  font-size: 17px;
+  padding: 3px 0px;
+  margin: 8px 10px;
+  margin-bottom: 20px;
+  width: 190px;
+  border-radius: 4px;
+}

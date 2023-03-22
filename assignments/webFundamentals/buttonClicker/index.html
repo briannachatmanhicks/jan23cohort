@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Button Clicker</title>
+</head>
+<body>
+    <header >
+        <h1>Dojanary</h1>
+        <input type="text" placeholder="search">
+        <button onclick="logInOut()" id="userbutton">Login</button>
+    </header>
+    <main>
+        <div id="leftside">
+            <div id="topninja">
+                <div class="information">
+                    <h2>ninja</h2>
+                    <p>noun <br> Plural: ninjas</p>
+                    <button onclick="likeAlert()">13 likes</button>
+                </div>
+                <p class="description">A practitioner skilled in the Japanese at of ninjutsu</p>
+            </div>
+            <div id="bottomninja">
+                <div class="information">
+                    <h2>ninja</h2>
+                    <p>noun <br> Plural: ninjas</p>
+                    <button onclick="likeAlert()">37 likes</button>
+                </div>
+                <p class="description">A programmer who breaks down problems with zen-like focus</p>
+            </div>
+        </div>
+        <div id="rightside">
+            <h2>Dojanary is defined by YOU</h2>
+            <button onclick="dissapear()" id="define">Add Definition</button>
+        </div>
+        <script src="./js/main.js"></script>
+    </main>
+</body>
+</html>

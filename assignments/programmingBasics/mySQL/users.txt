@@ -1,0 +1,14 @@
+
+
+SELECT * FROM users_shema.users;
+INSERT INTO users (firstName,lastName, email) 
+VALUES ('Brian','Wesley','bw3@hotmail.com'),
+('Kelsie','Littleton', 'kl.lovestheworld@yahoo.com'),
+('Zelda','Chicks', 'iamacat123@catplace.com');
+SELECT * FROM users_shema.users;
+SELECT email FROM users WHERE id=1;
+SELECT id FROM users WHERE id=3;
+UPDATE users SET lastName = 'Pancakes' WHERE id =3;
+DELETE FROM users WHERE id =2;
+SELECT * FROM users_shema.users ORDER BY firstName ASC;
+SELECT * FROM users_shema.users ORDER BY firstName DESC;

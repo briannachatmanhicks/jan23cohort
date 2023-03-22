@@ -1,0 +1,20 @@
+/* * {
+    border: 1px dotted pink;
+} */
+.center-box{
+    background-color: rgb(21,33,97);
+    height: 32px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-item {
+    background-color: rgb(246, 218, 182);
+    height: 12px;
+    width: 12px;
+    display:flex;
+}
+
+/* ---------------------------------------------------------- */

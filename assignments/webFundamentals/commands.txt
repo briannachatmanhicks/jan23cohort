@@ -1,0 +1,125 @@
+Last login: Wed Feb  1 07:45:07 on ttys001
+BriannaZ : ~/ > ls
+Applications				Music
+Cultural Differences - SD 480p.mov	OneDrive - UNT System
+Desktop					Pictures
+Documents				Public
+Downloads				node_modules
+HELP.mp4				package-lock.json
+Invoice for BRIANNA CHATMAN HICKS.pdf	package.json
+Library					untitled folder
+Movies
+BriannaZ : ~/ > cd Desktop
+BriannaZ : ~/Desktop/ > mkdir test
+BriannaZ : ~/Desktop/ > ls
+1674739153617-normalization.png
+Documents
+Portfolio_images.zip
+Screen Shot 2023-01-26 at 7.17.18 AM (2).png
+Screen Shot 2023-01-30 at 3.17.35 PM (2).png
+Screen Shot 2023-01-30 at 3.17.35 PM.png
+Screen Shot 2023-02-01 at 4.42.10 PM (2).png
+Screen Shot 2023-02-01 at 4.42.10 PM.png
+Screen Shot 2023-02-01 at 4.44.35 PM (2).png
+Screen Shot 2023-02-01 at 4.44.35 PM.png
+Screen Shot 2023-02-01 at 4.46.55 PM (2).png
+Screen Shot 2023-02-01 at 4.46.55 PM.png
+Screen Shot 2023-02-01 at 8.26.42 PM (2).png
+Screen Shot 2023-02-01 at 8.26.42 PM.png
+Users:briannachatman-hicks:.textClipping
+assets
+assets (1).zip
+assets.zip
+groupWork
+index.html
+lead-gen-business-new.sql
+test
+workbenchSetUp.docx
+~$ficial Resume.docx
+BriannaZ : ~/Desktop/ > cd test
+BriannaZ : ~/Desktop/test/ > ls   
+BriannaZ : ~/Desktop/test/ > touch index.html
+BriannaZ : ~/Desktop/test/ > touch styles.css
+BriannaZ : ~/Desktop/test/ > touch commands.txt
+BriannaZ : ~/Desktop/test/ > ls 
+commands.txt	index.html	styles.css
+BriannaZ : ~/Desktop/test/ > ls
+commands.txt	index.html	styles.css
+BriannaZ : ~/Desktop/test/ > cp index.html index_2.html
+BriannaZ : ~/Desktop/test/ > ls
+commands.txt	index.html	index_2.html	styles.css
+BriannaZ : ~/Desktop/test/ > cd ../
+BriannaZ : ~/Desktop/ > mkdir destination
+BriannaZ : ~/Desktop/ > ls
+1674739153617-normalization.png
+Documents
+Portfolio_images.zip
+Screen Shot 2023-01-26 at 7.17.18 AM (2).png
+Screen Shot 2023-01-30 at 3.17.35 PM (2).png
+Screen Shot 2023-01-30 at 3.17.35 PM.png
+Screen Shot 2023-02-01 at 4.42.10 PM (2).png
+Screen Shot 2023-02-01 at 4.42.10 PM.png
+Screen Shot 2023-02-01 at 4.44.35 PM (2).png
+Screen Shot 2023-02-01 at 4.44.35 PM.png
+Screen Shot 2023-02-01 at 4.46.55 PM (2).png
+Screen Shot 2023-02-01 at 4.46.55 PM.png
+Screen Shot 2023-02-01 at 8.26.42 PM (2).png
+Screen Shot 2023-02-01 at 8.26.42 PM.png
+Users:briannachatman-hicks:.textClipping
+assets
+assets (1).zip
+assets.zip
+destination
+groupWork
+index.html
+lead-gen-business-new.sql
+test
+workbenchSetUp.docx
+~$ficial Resume.docx
+BriannaZ : ~/Desktop/test/ > mv index_2.html ../destination
+BriannaZ : ~/Desktop/test/ > ls
+commands.txt	index.html	styles.css
+BriannaZ : ~/Desktop/test/ > cd ../
+BriannaZ : ~/Desktop/ > cd destination
+BriannaZ : ~/Desktop/destination/ > ls
+index_2.html
+BriannaZ : ~/Desktop/destination/ > cd ../
+BriannaZ : ~/Desktop/ > cd test
+BriannaZ : ~/Desktop/test/ > rm styles.css
+BriannaZ : ~/Desktop/test/ > ls
+commands.txt	index.html
+BriannaZ : ~/Desktop/test/ > cd ../destination
+BriannaZ : ~/Desktop/destination/ > ls
+index_2.html
+BriannaZ : ~/Desktop/destination/ > rm -r ../destination
+BriannaZ : ~/Desktop/destination/ > cd ../
+BriannaZ : ~/Desktop/ > ls
+1674739153617-normalization.png
+Documents
+Portfolio_images.zip
+Screen Shot 2023-01-26 at 7.17.18 AM (2).png
+Screen Shot 2023-01-30 at 3.17.35 PM (2).png
+Screen Shot 2023-01-30 at 3.17.35 PM.png
+Screen Shot 2023-02-01 at 4.42.10 PM (2).png
+Screen Shot 2023-02-01 at 4.42.10 PM.png
+Screen Shot 2023-02-01 at 4.44.35 PM (2).png
+Screen Shot 2023-02-01 at 4.44.35 PM.png
+Screen Shot 2023-02-01 at 4.46.55 PM (2).png
+Screen Shot 2023-02-01 at 4.46.55 PM.png
+Screen Shot 2023-02-01 at 8.26.42 PM (2).png
+Screen Shot 2023-02-01 at 8.26.42 PM.png
+Users:briannachatman-hicks:.textClipping
+assets
+assets (1).zip
+assets.zip
+groupWork
+index.html
+lead-gen-business-new.sql
+test
+workbenchSetUp.docx
+~$ficial Resume.docx
+BriannaZ : ~/Desktop/ > cd destination 
+cd: no such file or directory: destination
+BriannaZ : ~/Desktop/ > cd destination
+cd: no such file or directory: destination
+BriannaZ : ~/Desktop/ > 

@@ -1,0 +1,191 @@
+*{
+    // border: 1px dotted pink;
+    margin: 0px;
+    padding: 0px;
+    font-family:'Quicksand', sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    .column();
+    width: 1000px;
+    margin: auto;
+    header {
+        .column();
+        width: 100%;
+        align-items: flex-start;
+        #tophead {
+            .row();
+            margin-bottom: -20px;
+            z-index: 1;
+            img{
+                width:80px;
+            }
+            h1{
+                span{
+                    color: rgba(10, 20, 130, 0.868);
+                }
+            }
+        }
+        #downhead {
+            background-color: rgba(10, 20, 130, 0.868);
+            padding: 10px 0 10px 10px;
+            width: 100%;
+            color: white;
+        }
+    }
+    main {
+        .row();
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-start;
+        span {
+            color:rgb(57, 166, 228);
+            }
+        #rightside {
+            .column();
+            width: 74%;
+            #righthead {
+                .row();
+                justify-content: space-between;
+                align-items: flex-start;
+                width: 100%;
+                #DNS{
+                    .row();
+                    width: 70px;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                    img{
+                        width: 20px;
+                    }
+                    h3{
+                        color: rgba(10, 20, 130, 0.868);
+                        font-weight: 500;
+                    }
+                }
+                #phone {
+                    .row();
+                    width: 280px;
+                    justify-content: space-between;
+                    img{
+                        width: 50px;
+                    }
+                    h2 {
+                        color:rgb(57, 166, 228);
+                    }
+                }
+            }
+            #maindiv {
+                width: 100%;
+                h2 {
+                    color: rgba(10, 20, 130, 0.868);
+                }
+                li {
+                    margin-left: 50px;
+                }
+                img {
+                    width: 300px;
+                    margin-left: 200px;
+                }
+            }
+            #footer {
+                .row();
+                width: 104%;
+                border: 5px solid rgb(57, 166, 228);
+                margin-top: 25px;
+                align-items: flex-start;
+                h2 {
+                    color: rgba(10, 20, 130, 0.868);
+                    margin-top: 10px;
+                }
+                img{
+                    width: 150px;
+                    padding: 10px;
+                }
+            }
+        }
+        #leftside {
+            .column();
+            width: fit-content;
+            align-items: center;
+            // justify-content: center;
+            h3 {
+                margin: 10px 0px 10px 0px;
+                margin-left: -13px;
+                span{
+                    color: red;
+                }
+            }
+            p {
+                font-weight: 600;
+                width: min-content;
+                font-size: 15px;
+                width: 220px;
+                margin-bottom: 15px;
+                span{
+                    color: rgba(10, 20, 130, 0.868);
+                }
+            }
+            #WAV {
+                color: white;
+                background-color: rgba(10, 20, 130, 0.868);
+                font-size: 17px;
+                padding: 3px 0px;
+                width: 190px;
+                border-radius: 4px;
+                margin-bottom: 2px;
+            }
+            #MR {
+                color: white;
+                background-color: rgba(221, 140, 10, 0.868);
+                font-size: 17px;
+                padding: 3px 0px;
+                width: 190px;
+                border-radius: 4px;
+            }
+            hr {
+                width: 100%;
+                margin: 20px 0px 20px 0px;
+                border-width: 2px;
+            }
+            div {
+                background-image: url(./images/ad_background.png);
+                .column();
+                h2 {
+                    color: white;
+                    text-align: center;
+                    width:min-content;
+                    width: 170px;
+                    font-weight: 500;
+                    margin-top: 15px;
+                }
+                img {
+                    width: 110px;
+                }
+                button {
+                    color: white;
+                    background-color: rgb(57, 166, 228);
+                    font-size: 17px;
+                    padding: 3px 0px;
+                    margin: 8px 10px;
+                    margin-bottom: 20px;
+                    width: 190px;
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
+}
