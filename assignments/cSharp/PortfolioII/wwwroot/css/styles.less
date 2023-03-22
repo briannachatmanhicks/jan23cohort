@@ -1,0 +1,91 @@
+// *{
+//     border: 1px dotted pink;
+// }
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    width: 800px;
+    .column();
+    margin: auto;
+    #links {
+        .row();
+        width: 95%;
+        justify-content: space-between;
+    }
+    #projectdiv{
+        .column();
+        width: 100%;
+        margin: 30px;
+        border: 2px solid black;
+        .wholeproject{
+            .row();
+            width: 90%;
+            margin-bottom: 20px;
+            .projectinfo{
+                .column();
+                align-items: flex-start;
+                height: 100%;
+            }
+            
+            img {
+                width: 150px;
+                // margin-right: 30px;
+            }
+        }
+    }
+    form {
+        .column();
+        width: 100%;
+        .formindi{
+            .row();
+            width: 55%;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 30px;
+            label{
+                font-size: 20px;
+                font-weight: bold;
+                margin-top: 5px;
+            }
+            input {
+                width: 50%;
+                height: 35px;
+                border: 2px solid black;
+            }
+            textarea{
+                width: 50%;
+                border: 2px solid black;
+            }
+        }
+    }
+    #main{
+        .row();
+        justify-content: space-between;
+        width: 100%;
+        #meinfo{
+            width: min-content;
+            margin-right: 60px;
+            p{
+                text-align: center;
+            }
+        }
+        // #description{
+        //     // width: 300px;
+        // }
+    }
+    #pic{
+        width: 250px;
+    }
+}

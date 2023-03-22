@@ -1,0 +1,45 @@
+<link rel="stylesheet" href="/js/site.js">
+@{
+    ViewData["Title"] = "Dashboard";
+}
+@model User
+
+<h1>@Model.Name</h1>
+
+<h1 id="number">22</h1>
+
+<button id="addOne" onclick="addOne()">+1</button>
+<button id="subOne" onclick="subOne()">-1</button>
+<button id="timesTwo" onclick="timesTwo()">x2</button>
+<button id="addRand" onclick="addRand()" >+Random</button>
+
+<script type="text/javascript">
+    function addOne() {
+        pageNum = pageNum + 1;
+        console.log(pageNum);
+        document.getElementById("number").innerHTML = pageNum;
+        return pageNum
+    }
+
+    function subOne() {
+        pageNum = pageNum - 1;
+        console.log(pageNum);
+        document.getElementById("number").innerHTML = pageNum;
+        return pageNum;
+    }
+
+    function timesTwo() {
+        pageNum = pageNum * 2;
+        console.log(pageNum);
+        document.getElementById("number").innerHTML = pageNum;
+        return pageNum;
+    }
+
+    function addRand() {
+        let value = Math.floor(Math.random() * (10 - 1 + 1)) + 1;
+        console.log(value);
+        pageNum = pageNum + value;
+        document.getElementById("number").innerHTML = pageNum;
+        return pageNum;
+    }
+</script>

@@ -1,0 +1,23 @@
+BriannaZ : ~/Desktop/Documents/CodingDojo/jan2023cohort/assignments/ - (main) > dotnet --version
+6.0.405
+BriannaZ : ~/Desktop/Documents/CodingDojo/jan2023cohort/assignments/ - (main) > dotnet new console -o FundamentalsIII
+The template "Console App" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on /Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/FundamentalsIII/FundamentalsIII.csproj...
+  Determining projects to restore...
+  Restored /Users/briannachatman-hicks/Desktop/Documents/CodingDojo/jan2023cohort/assignments/FundamentalsIII/FundamentalsIII.csproj (in 337 ms).
+Restore succeeded.
+
+
+BriannaZ : ~/Desktop/Documents/CodingDojo/jan2023cohort/assignments/ - (main) > cd cSharp/FundamentalsIII
+BriannaZ : ~/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/FundamentalsIII/ - (main) > dotnet new console
+Creating this template will make changes to existing files:
+  Overwrite   ./FundamentalsIII.csproj
+  Overwrite   ./Program.cs
+
+Rerun the command and pass --force to accept and create.
+
+BriannaZ : ~/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/FundamentalsIII/ - (main) > dotnet run
+Hello, World!
+BriannaZ : ~/Desktop/Documents/CodingDojo/jan2023cohort/assignments/cSharp/FundamentalsIII/ - (main) > 

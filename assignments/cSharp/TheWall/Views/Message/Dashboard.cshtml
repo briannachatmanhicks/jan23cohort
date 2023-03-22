@@ -1,0 +1,10 @@
+@model MyViewModel
+
+<h2>Post a Message</h2>
+<div class="col-md">
+            @await Html.PartialAsync("_MessForm", Model.Message)
+</div>
+
+<h4>Post a Comment</h4>
+
+

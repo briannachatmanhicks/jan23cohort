@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model List<Dish>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to CRUDelicious</h1>
+</div>
+<h3>Check out some recent dishes</h3>
+@foreach(Dish dish in Model) {
+        <p>
+            <a 
+            asp-action="SeeOne"
+            asp-controller="Dish"
+            asp-route-dishId= "@dish.DishId"
+            >@dish.DishName</a> 
+        @dish.ChefName</p>
+    }

@@ -1,0 +1,30 @@
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+body div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  width: 100%;
+}
+body div h3 {
+  font-weight: 50;
+}
+body div h1 {
+  border: 2px solid black;
+  padding: 10px 30px;
+  text-align: center;
+  font-weight: 50;
+}

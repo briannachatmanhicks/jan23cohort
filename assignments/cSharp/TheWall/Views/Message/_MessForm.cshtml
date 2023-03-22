@@ -1,0 +1,16 @@
+@model Message
+
+<form 
+asp-controller="Message"
+asp-action="CreateMessage"
+method="POST">
+        <div class="mb-3">
+            <label asp-for="MContent"></label>
+            <span
+                asp-validation-for="MContent"
+                class="text-danger font-weight-bold"
+            ></span>
+            <input asp-for="MContent" class="form-control">
+            <button>Post</button>
+        </div>
+</form>

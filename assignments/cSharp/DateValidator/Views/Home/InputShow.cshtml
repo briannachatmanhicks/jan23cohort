@@ -1,0 +1,13 @@
+@model User
+
+ @{
+    ViewData["Show Inputs"] = "Home Page";
+}
+
+<h3>@Model.FirstName</h3>
+<h3>@Model.LastName</h3>
+@{
+    @Model.DOB
+    string date = @Model.DOB.ToString("MMM dd, yyyy");
+}
+<h3>@date</h3>

@@ -1,0 +1,120 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+body main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+body main div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  justify-content: space-between;
+}
+body main div h3 {
+  font-weight: 100;
+}
+body main div h4 {
+  width: 40%;
+  font-weight: 100;
+  height: 18.5px;
+  padding: 4px;
+}
+body main .comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+}
+body main .comment h4 {
+  width: 100%;
+  height: 150px;
+  margin: 0px;
+}
+body main .comment textarea {
+  border: 2px solid black;
+  width: 100%;
+}
+body main form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 950px;
+  padding: 20px;
+}
+body main form div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+body main form div label {
+  font-size: 18px;
+  margin: 5px;
+  margin-bottom: 15px;
+}
+body main form div input {
+  border: 2px solid black;
+  width: 40%;
+}
+body main form div select {
+  border: 2px solid black;
+  width: 42%;
+}
+body main .button {
+  margin-top: 20px;
+  margin-right: -350px;
+  background-color: darkcyan;
+  height: fit-content;
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+  border: 3px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 5px 5px 2px 1px black;
+}
+body main .backbutt {
+  margin-top: 20px;
+  margin-right: -280px;
+  background-color: darkcyan;
+  height: fit-content;
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+  border: 3px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 5px 5px 2px 1px black;
+}
+body main .backbutt a {
+  text-decoration: none;
+  color: black;
+}

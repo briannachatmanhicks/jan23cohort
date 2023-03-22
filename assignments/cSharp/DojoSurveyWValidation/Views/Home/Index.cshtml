@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model Survey
+<form action="surveyResults" method="post">
+    <div class="form-group">
+        <label for="Name">Your Name</label>
+        <input asp-for="Name" class="form-control">
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="Language">Favorite Language</label>
+        <input asp-for="Language" class="form-control">
+        <span asp-validation-for="Language" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="Location">Location</label>
+        <input asp-for="Location" class="form-control">
+        <span asp-validation-for="Location" class="text-danger"></span> 
+        @* the asp-validation is to render the error message from @model Survey *@
+    </div>
+
+    <div class="form-group">
+        <label for="Comments">Comments (Optional)</label>
+        <input name="Comments" class="form-control">
+        <span asp-validation-for="Comments" class="text-danger"></span> 
+
+
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Submit" class="btn btn-primary">
+    </div>
+</form>

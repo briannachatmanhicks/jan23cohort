@@ -1,0 +1,105 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+body #links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  justify-content: space-between;
+}
+body #projectdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 30px;
+  border: 2px solid black;
+}
+body #projectdiv .wholeproject {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin-bottom: 20px;
+}
+body #projectdiv .wholeproject .projectinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+  height: 100%;
+}
+body #projectdiv .wholeproject img {
+  width: 150px;
+}
+body form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+body form .formindi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+body form .formindi label {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+body form .formindi input {
+  width: 50%;
+  height: 35px;
+  border: 2px solid black;
+}
+body form .formindi textarea {
+  width: 50%;
+  border: 2px solid black;
+}
+body #main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+body #main #meinfo {
+  width: min-content;
+  margin-right: 60px;
+}
+body #main #meinfo p {
+  text-align: center;
+}
+body #pic {
+  width: 250px;
+}
