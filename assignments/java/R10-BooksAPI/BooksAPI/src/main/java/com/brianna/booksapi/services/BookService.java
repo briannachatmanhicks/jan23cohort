@@ -10,12 +10,18 @@ import com.brianna.booksapi.repositories.BookRepository;
 //MANAGER/COMMUNICATOR goes between repo and controller
 @Service
 public class BookService {
+	
     // adding the book repository as a dependency
     private final BookRepository bookRepository;
     
     public BookService(BookRepository bookRepository) {
         this.bookRepository = bookRepository;
     }
+	//ANOTHER WAY TO DO THE ABOVE
+//	@Autowired
+//	BookRepository bookRepository;
+    
+    
     // returns all the books
     public List<Book> allBooks() {
         return bookRepository.findAll();
